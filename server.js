@@ -20,8 +20,6 @@ app.use(cors())
 
 /// TODO: Develop GET /contacts
 app.get('/contacts',(req,res) => {
-    let newContacts = req.body
-    contacts.push(newContacts)
     res.json(newContacts)
 })
 
